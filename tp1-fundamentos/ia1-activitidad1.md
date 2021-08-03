@@ -6,8 +6,9 @@
 
 <h6>
 La División de Operaciones Aéreas (AOD) utiliza Inteligencia Artificial para operadores sustitutos en simulaciones de combate y formación, ayudas técnicas para gestionar y llevar a cabo una misión, sistemas de apoyo para la toma de decisiones tácticas, procesamiento posterior de los datos del simulador en resúmenes simbólicos, entre otras.
-
-Los simuladores de vuelos utilizan inteligencia artificial con el fin de procesar los datos obtenidos.  Aparte de simular un vuelo, también se simula la guerra entre aviones. Las computadoras son capaces de llegar a los mejores escenarios de éxito en estas situaciones, pueden crear estrategias basadas en la ubicación, el tamaño, la velocidad y la fuerza de los ejércitos. Los pilotos pueden recibir asistencia ellas en el aire durante el combate. 
+  
+  Los simuladores de vuelos utilizan inteligencia artificial con el fin de procesar los datos obtenidos.  Aparte de simular un vuelo, también se simula la guerra entre aviones. Las computadoras son capaces de llegar a los mejores escenarios de éxito en estas situaciones, pueden crear estrategias basadas en la ubicación, el tamaño, la velocidad y la fuerza de los ejércitos. Los pilotos pueden recibir asistencia ellas en el aire durante el combate.
+  
 Los programas de inteligencia artificial pueden reordenar la información y proporcionar al piloto las mejores maniobras posibles, por no mencionar la eliminación de ciertas maniobras que serían imposibles para un ser humano llevar a cabo. Múltiples aviones son necesarios para obtener buenas aproximaciones para algunos cálculos por lo que se utilizan pilotos simulados por ordenador para recopilar datos. Estos pilotos simulados también se utilizan para formar a futuros controladores aéreos.
 
 El sistema utilizado por la AOD con el fin de medir el rendimiento fue el Diagnóstico Interactivo de Fallos y Aislamiento del Sistema. El sistema se utilizó para reemplazar a los trabajadores especializados, permitió a los trabajadores regulares comunicarse con el sistema y evitar errores, errores de cálculo, o tener que hablar con uno de los trabajadores especializados.
@@ -71,4 +72,12 @@ Integrantes:
   - Barbeito, Sofia. 
   - Cairo, Lucia.
   - Serrano, Cristian.
+
+<h6>
+Bibliografía:
+  
+https://www.oracle.com/mx/artificial-intelligence/what-is-ai/
+  
+https://es.wikipedia.org/wiki/Aplicaciones_de_la_inteligencia_artificial
+</h6>
 
