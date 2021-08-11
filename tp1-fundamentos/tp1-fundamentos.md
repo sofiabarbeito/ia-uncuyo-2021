@@ -126,3 +126,10 @@ Existe incluso una palabra nueva, trashumanismo, que se refiere al movimiento so
 <h6>
 Finalmente, tomemos en consideración el punto de vista del robot. Si los robots adquieren conciencia, tratarlos entonces como solo “máquinas” podría ser inmoral. Los robots también deben actuar moralmente, necesitaríamos programarlos con una teoría de lo que está bien y lo que está mal.
 </h6>
+
+![alt text](https://github.com/sofiabarbeito/ia-uncuyo-2021/blob/main/tp1-fundamentos/mapa%20tp1.PNG?raw=true)
+
+<h4>Opinión Personal</h4>
+<h6>
+
+</h6>
