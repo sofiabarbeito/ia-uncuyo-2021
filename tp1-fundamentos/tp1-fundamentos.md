@@ -131,5 +131,12 @@ Finalmente, tomemos en consideración el punto de vista del robot. Si los robots
 
 <h4>Opinión Personal</h4>
 <h6>
+Con respecto a lo tratado en el capítulo 26, yo creo que con cumplir los criterios de la IA Débil es suficiente para crear inteligencia artificial, ya que lo que importa no es que las máquinas tengan un pensamiento real como los humanos, sino que los programas sean eficientes y se mejoren sus funciones.
+</h6>
+<h6>
+La ética y los riesgos de la inteligencia artificial son una parte muy importante a la hora de desarrollar y aplicar IA. Como estudiantes de Ciencias en la Computación, es fundamental el conocimiento de cada uno de los problemas que trae la IA. 
+</h6>
+<h6>
+Por mencionar algunos problemas, por ejemplo, el cual en que las personas podrían perder sus trabajos por la automatización.Pienso que es cierto, pero al mismo tiempo este avance traerá nuevos empleos más específicos, y las personas se deberán ir especializando en cosas nuevas, que aún no conocemos. Otro problema es en el que las personas podrían tener demasiado tiempo de ocio. Yo creo que el tiempo de trabajo no va a disminuir, pero se podrá avanzar más rápido y dedicarse a temas de mayor interés para las personas que les traigan mayor satisfacción a sus vidas.
 
 </h6>
