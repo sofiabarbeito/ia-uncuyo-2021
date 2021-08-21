@@ -105,62 +105,7 @@ class Agent:
                 if self.vida == 0 or self.vida < 0:
                         break
             
-           # print("Ultima: ",self.vida)
-    '''
-    def think(self): # implementa las acciones a seguir por el agente
-            
-            #Llegamos a esquina de matriz limpiando en el camino
-            while self.env.posX != 0 or self.env.posY != 0:
-                print(self.vida)
-                #print("x: ", self.env.posX)
-                #print("y: ", self.env.posY)
-                if self.env.accept_action("arriba") == True:
-                    self.up()
-                    if self.perspective() == "sucio":
-                        self.suck()
-                if self.env.accept_action("izquierda") == True:   
-                    self.left()
-                    if self.perspective() == "sucio":
-                        self.suck()
-                if self.vida == 0:
-                    break
-            
-            while self.env.posX < self.env.sizeX and self.vida > 0:
-                print(self.vida)
-                for y in range(0, self.env.sizeY):
-                    #print("----")
-                    #print("x: ", self.env.posX)
-                    #print("y: ", self.env.posY)
-                    if self.perspective() == "sucio":
-                        self.suck()
-                    if self.vida == 0 or self.vida < 0:
-                        break
-                    if self.env.accept_action("derecha") == True:
-                        self.right() 
-                    if self.vida == 0 or self.vida < 0:
-                        break
-
-                if self.env.accept_action("abajo") == True:
-                    self.down()
-                if self.vida == 0 or self.vida < 0:
-                        break
-
-                for z in range(self.env.sizeY, 0, -1):
-                    if self.perspective() == "sucio":
-                        self.suck()
-                    if self.vida == 0 or self.vida < 0:
-                        break
-                    if self.env.accept_action("izquierda") == True:
-                        self.left() 
-                    if self.vida == 0 or self.vida < 0:
-                        break
-                if self.env.accept_action("abajo") == True:
-                    self.down()
-                if self.vida == 0 or self.vida < 0:
-                        break
-            
-            print("Ultima: ",self.vida)
-        '''
+           
             
         
 
