@@ -46,7 +46,8 @@ class AgenteAleatorio:
         while self.vida > 0:
             n = random.randint(0,6)
             if n == 0:
-                self.suck()
+                if self.perspective() == "sucio":
+                    self.suck()
             elif n == 1:
                 if self.env.accept_action("derecha") == True:
                     self.right()
