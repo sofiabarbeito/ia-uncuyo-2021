@@ -66,7 +66,7 @@ class Agent:
                 while currentNode != None:
                     add(camino,currentNode.estado)
                     currentNode = currentNode.padre
-                return camino
+                return explorado
             #Ahora insertamos en frontera los nodos sucesores de nodo
             self.expandirBFS(explorado,frontera,nodo)
         return None
@@ -120,7 +120,7 @@ class Agent:
                 while currentNode != None:
                     add(camino,currentNode.estado)
                     currentNode = currentNode.padre
-                return camino
+                return explorado
             #Ahora insertamos en frontera los nodos sucesores de nodo
             self.expandirDFS(explorado,frontera,nodo)
         return None
@@ -173,7 +173,7 @@ class Agent:
                 while currentNode != None:
                     add(camino,currentNode.estado)
                     currentNode = currentNode.padre
-                return camino
+                return explorado
             #Ahora insertamos en frontera los nodos sucesores de nodo
             self.expandirUCS(explorado,frontera,nodo)
         return None
