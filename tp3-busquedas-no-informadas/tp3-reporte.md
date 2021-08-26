@@ -40,4 +40,4 @@ Desviación estandar: 1969.4007854430504
 <h4>
 Cuando comparamos la complejidad temporal de los 3 algoritmos, el mejor seria Busqueda por Anchura o Busqueda Uniforme, ya que en este caso el camino no tiene costo. Con la complejidad espacial, el mejor seria Busqueda en Profundidad. </h4>
 <h4>
-Pero si hablamos de los resultados que nos dieron los algoritmos con respecto a la cantidad de estados explorados para llegar al destino, el mejor algoritmo mirando la media es el de Busqueda en Profundidad. Recorre menos estados para llegar al punto final que los demas algoritmos.</h4>
+Pero si hablamos de los resultados que nos dieron los algoritmos con respecto a la cantidad de estados explorados para llegar al destino, el mejor algoritmo mirando la media es el de Busqueda en Profundidad. Recorre menos estados para llegar al punto final que los demas algoritmos, ya que no necesariamente recorre todos los nodos hasta llegar al punto final, si no que empieza por los nodos de la izquierda hasta llegar al final del arbol, y despues sigue con los de la derecha, por lo que hay mas probabilidades que encuentre el punto final antes.</h4>
