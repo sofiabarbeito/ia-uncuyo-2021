@@ -1,6 +1,9 @@
 <h2> Punto B </h2>
 
-<h3> Usamos los mismos estados en los 3 algoritmos</h3>
+<h4> Usamos los mismos estados en los 3 algoritmos</h4>
+
+![alt text](https://github.com/sofiabarbeito/ia-uncuyo-2021/blob/main/tp3-busquedas-no-informadas/media.PNG?raw=true)
+![alt text](https://github.com/sofiabarbeito/ia-uncuyo-2021/blob/main/tp3-busquedas-no-informadas/desviacion.PNG?raw=true)
 
 <h3>BFS</h3>
 <h4>
