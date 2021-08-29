@@ -1,6 +1,7 @@
 
 from linkedlist import*
-
+import queue
+import stack
 
 class Agent:
 
@@ -95,6 +96,7 @@ class Agent:
             insert(explorado,nodo,length(explorado))
 
             if nodo.estado[0] == self.env.posF[0] and nodo.estado[1] == self.env.posF[1]:
+                self.env.imprimirGrilla()
                 return explorado
             
             self.expandirA(explorado,frontera,nodo)
