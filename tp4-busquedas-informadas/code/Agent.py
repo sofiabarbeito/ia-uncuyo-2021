@@ -1,7 +1,7 @@
-
 from linkedlist import*
 import queue
 import stack
+
 
 class Agent:
 
@@ -59,13 +59,15 @@ class Agent:
 
     def buscoNodoMenor(self,frontera):
         h = frontera.head.value.h
-        nodop = access(frontera,0)
+        g = frontera.head.value.g
+        f = h + g
+        nodop = frontera.head.value
         currentN = frontera.head.nextNode
         n = 0
         while currentN != None:
-            if currentN.value.h < h :
-                h = currentN.value.h
-                nodop = access(frontera,n)
+            if (currentN.value.h + currentN.value.g) < f :
+                f = currentN.value.h + currentN.value.g
+                nodop = currentN.value
             n += 1
             currentN = currentN.nextNode
         delete(frontera,nodop)
@@ -77,30 +79,54 @@ class Agent:
         nodo = TreeNode()
         nodo.estado = self.env.posI
         nodo.g = 0
+        nodo.h = abs(nodo.estado[0]-self.env.posF[0]) + abs(nodo.estado[1]-self.env.posF[1]) #calculo heuristica
 
         arbol = Tree()
         arbol.head = nodo
 
-        nodo.h = abs(nodo.estado[0]-self.env.posF[0]) + abs(nodo.estado[1]-self.env.posF[1]) #calculo heuristica
 
         frontera = LinkedList()
         add(frontera,nodo)
+
         explorado = LinkedList()
 
         if nodo.estado[0] == self.env.posF[0] and nodo.estado[1] == self.env.posF[1]:
             return explorado
-
-        while length(frontera) > 0:
+        
+        while length(explorado) < (self.env.sizeX*self.env.sizeY):
+        #while length(frontera) > 0:
+            #print(n)
                     
             nodo = self.buscoNodoMenor(frontera)
             insert(explorado,nodo,length(explorado))
 
             if nodo.estado[0] == self.env.posF[0] and nodo.estado[1] == self.env.posF[1]:
-                self.env.imprimirGrilla()
+                #self.env.imprimirGrilla()
                 return explorado
             
-            self.expandirA(explorado,frontera,nodo)
-
+            for x in range(0,4):
+                n = TreeNode()
+                n.padre = nodo
+                n.g = nodo.g + 1
+                if x == 0:
+                    n.estado = self.up(nodo)
+                    n.accion = "arriba"
+                elif x == 1:
+                    n.estado = self.down(nodo)
+                    n.accion = "abajo"
+                elif x == 2:
+                    n.estado = self.right(nodo)
+                    n.accion = "derecha"
+                elif x == 3:
+                    n.estado = self.left(nodo)
+                    n.accion = "izquierda"
+                if n.estado != None:
+                    if n.estado[0] == self.env.posF[0] and n.estado[1] == self.env.posF[1]:
+                        return explorado
+                    n.h = abs(n.estado[0]-self.env.posF[0]) + abs(n.estado[1]-self.env.posF[1]) #calculo heuristica
+                    if self.search(explorado,n) == None:
+                        add(frontera,n)
+            
         return None
         
     def expandirA(self,explorado,frontera,nodo):
