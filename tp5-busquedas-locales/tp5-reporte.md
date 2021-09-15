@@ -138,3 +138,8 @@
 <h4>Variación de la función h() a lo largo de las iteraciones</h4>
 
 ![alt text](https://github.com/sofiabarbeito/ia-uncuyo-2021/blob/main/tp5-busquedas-locales/imagenes/hill4reinas.PNG?raw=true)
+
+
+<h2> Cuál de los tres algoritmos implementados resulta más adecuado para la solución del problema de las n-reinas.</h2>
+<h4> Si tenemos en cuenta el tiempo de ejecucion, el algorimto genetico se tarda mucho mas a comparacion de los otros dos. Si tenemos en cuenta el porcentaje de veces que se llega al estado optimo, el mas alto es el genetico, y el Simulated Anneling le sigue con poca diferencia. Y si miramos el promedio de estados, el que tiene menor numero es el Hill Climbing, pero muchas veces sin llegar al optimo</h4>
+<h4> Por estas razones, yo pienso que el mejor algoritmo es el Simualted Anneling, ya que mirando los 3 parametros que mencione, a pesar de que es el que mayor estados recorre, tiene un tiempo de ejecucion bajo y tiene un porcentaje de estados optimos aceptable. </h4>
