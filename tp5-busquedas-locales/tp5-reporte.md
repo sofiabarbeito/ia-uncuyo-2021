@@ -110,11 +110,11 @@
 ![alt text](https://github.com/sofiabarbeito/ia-uncuyo-2021/blob/main/tp5-busquedas-locales/imagenes/hill4reinas.PNG?raw=true)
 
 <h3> 8 Reinas </h3>
-<h4> Porcentaje de veces que se llega a estado óptimo:  93.33333333333333</h4>
-<h4>Tiempo de ejecucion promedio:  0.4861367623011271</h4>
-<h4>Desviación estandar de tiempo de ejecucion:  1.5382683929384142</h4>
-<h4>Promedio de estados:  8.3</h4>
-<h4>Desviación estandar de estados:  24.94566509228711 </h4>
+<h4> Porcentaje de veces que se llega a estado óptimo:  50.0</h4>
+<h4>Tiempo de ejecucion promedio:  39.579407811164856</h4>
+<h4>Desviación estandar de tiempo de ejecucion:  36.535886938005866</h4>
+<h4>Promedio de estados:  54.333333333333336</h4>
+<h4>Desviación estandar de estados:  46.729842295042474 </h4>
 
 <h4>Grafico de caja:</h4>
 
