@@ -141,5 +141,5 @@
 
 
 <h2> Cuál de los tres algoritmos implementados resulta más adecuado para la solución del problema de las n-reinas.</h2>
-<h4> Si tenemos en cuenta el tiempo de ejecucion, el algorimto genetico se tarda mucho mas a comparacion de los otros dos. Si tenemos en cuenta el porcentaje de veces que se llega al estado optimo, el mas alto es el genetico, y el Simulated Anneling le sigue con poca diferencia. Y si miramos el promedio de estados, el que tiene menor numero es el Hill Climbing, pero muchas veces sin llegar al optimo</h4>
-<h4> Por estas razones, yo pienso que el mejor algoritmo es el Simualted Anneling, ya que mirando los 3 parametros que mencione, a pesar de que es el que mayor estados recorre, tiene un tiempo de ejecucion bajo y tiene un porcentaje de estados optimos aceptable. </h4>
+<h4> Si tenemos en cuenta el tiempo de ejecución, el algorimto Genético se tarda mucho más a comparación de los otros dos. Si tenemos en cuenta el porcentaje de veces que se llega al estado óptimo, el más alto es el Genético, y el Simulated Anneling le sigue con poca diferencia. Y si miramos el promedio de estados, el que tiene menor número es el Hill Climbing, pero muchas veces sin llegar al óptimo.</h4>
+<h4> Por estas razones, yo pienso que el mejor algoritmo es el Simualted Anneling, ya que mirando los 3 parámetros que mencioné, a pesar de que es el que mayor estados recorre, tiene un tiempo de ejecución bajo y tiene un porcentaje de estados óptimos aceptable. </h4>
