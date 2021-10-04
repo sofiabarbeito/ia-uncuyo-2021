@@ -46,7 +46,9 @@ Tenemos n variables, con dominios de tamaño d como mucho y una cantidad c de re
 </h4>
 
 <h2> PUNTO 4 </h2>
-
+<h4>
+Podriamos preprocesar las restricciones para que para cada valor de Xi, llevamos un seguimiento de esas variables Xk por las cuales un arco desde Xk a Xi se satisface para ese valor particular de Xi. Esta estructura de datos se puede computar en un tiempo proporcional al tamaño de la representacion del problema. Después, cuando un valor de Xi es eliminado, reducimos por 1 la cuenta de valores posibles para cada arco (Xk,Xi) guardado con ese valor, no deberiamos insertar cada arco (Xk, Xi), por lo que la complejidad en el peor caso que antes era O(n^2xd^3), ahora es O(n^2xd^2).
+</h4>
 
 <h2> PUNTO 5 </h2>
 <h3>Punto a </h3>
@@ -145,13 +147,22 @@ Estados: [274]
 8
   </h4>
 <h4>
+Tiempo de ejecucion: 0.124683746338298
+  </h4>
+  <h4>
+Estados: 233189
+</h4>
+<h4>
+10
+  </h4>
+<h4>
 Tiempo de ejecucion: [4.050742864608765]
   </h4>
 <h4>
 Estados: [1660100]
 </h4>
 <h4>
-10
+12
   </h4>
 <h4>
 Tiempo de ejecucion: [33.45374655723572]
@@ -160,7 +171,7 @@ Tiempo de ejecucion: [33.45374655723572]
 Estados: [12506605]
 </h4>
 <h4>
-12
+15
   </h4>
 <h4>
 Tiempo de ejecucion: [873.6974053382874]
@@ -168,19 +179,11 @@ Tiempo de ejecucion: [873.6974053382874]
 <h4>
 Estados: [291364134]
 </h4>
-<h4>
-15
-  </h4>
-<h4>
-Tiempo de ejecucion: 
-  </h4>
-<h4>
-Estados: 
-</h4>
+
 <h3> Tiempo de ejecucion</h3>
 
-![alt text]()
+![alt text](https://github.com/sofiabarbeito/ia-uncuyo-2021/blob/main/tp6-csp/imagenes/backtrackingtiempo.PNG?raw=true)
 
 <h3> Estados</h3>
 
-![alt text]()
+![alt text](https://github.com/sofiabarbeito/ia-uncuyo-2021/blob/main/tp6-csp/imagenes/backtrackingestados.PNG?raw=true)
