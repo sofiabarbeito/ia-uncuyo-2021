@@ -125,11 +125,11 @@ Estados: [20280]
 </h4>
 <h3> Tiempo de ejecucion</h3>
 
-![alt text](https://github.com/sofiabarbeito/ia-uncuyo-2021/blob/main/tp6-csp/imagenes/forwardcheckingtiempo.PNG?raw=true)
+![alt text](https://github.com/sofiabarbeito/ia-uncuyo-2021/blob/main/tp6-csp/imagenes/forwardcheckingtiempo1.PNG?raw=true)
 
 <h3> Estados</h3>
 
-![alt text](https://github.com/sofiabarbeito/ia-uncuyo-2021/blob/main/tp6-csp/imagenes/forwardcheckingestados.PNG?raw=true)
+![alt text](https://github.com/sofiabarbeito/ia-uncuyo-2021/blob/main/tp6-csp/imagenes/forwardcheckingestados1.PNG?raw=true)
 
 <h3>
 Backtracking
@@ -182,8 +182,8 @@ Estados: [291364134]
 
 <h3> Tiempo de ejecucion</h3>
 
-![alt text](https://github.com/sofiabarbeito/ia-uncuyo-2021/blob/main/tp6-csp/imagenes/backtrackingtiempo.PNG?raw=true)
+![alt text](https://github.com/sofiabarbeito/ia-uncuyo-2021/blob/main/tp6-csp/imagenes/backtrackingtiempo1.PNG?raw=true)
 
 <h3> Estados</h3>
 
-![alt text](https://github.com/sofiabarbeito/ia-uncuyo-2021/blob/main/tp6-csp/imagenes/backtrackingestados.PNG?raw=true)
+![alt text](https://github.com/sofiabarbeito/ia-uncuyo-2021/blob/main/tp6-csp/imagenes/backtrackingestados1.PNG?raw=true)
