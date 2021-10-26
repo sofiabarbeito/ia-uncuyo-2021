@@ -16,7 +16,11 @@ También busqué la clase mayoritaria, la cual es cuando los datos tienen inclin
 | 0 | 2401 | 1178 |
 | 1 | 925 | 1906 |
 
+<h5> Metricas </h5>
 
+| Accuracy| Precision | Sensitivity | Specificity |
+| ------------- | ------------- | ------------- | ------------- |
+| 0.8658728  | 0.8830981 | 0.9774583 | 0.02540107  |
 
 <h3>  C. Resultados obtenidos en Kaggle</h3>
 
