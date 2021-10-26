@@ -49,4 +49,6 @@
 
 
 <h3>d. Crear una nueva variable categórica de nombre circ_tronco_cm_cat a partir circ_tronco_cm, en donde puedan asignarse solo  4 posibles valores [ muy alto, alto, medio, bajo ]. Utilizar la información del punto a. para seleccionar los puntos de corte para cada categoría</h3>
-<h4> Teniendo en cuenta la cantidad de datos, decidi hacer los cortes para que en cada categoria hubiera una cantidad de datos parecida. </h4>
+<h4> Teniendo en cuenta la cantidad de datos, decidi hacer los cortes para que en cada categoria hubiera una cantidad de datos parecida, excepto en la categoria 'Muy alto', ya que hay menos casos. </h4>
+
+![alt text](https://github.com/sofiabarbeito/ia-uncuyo-2021/blob/main/tp7-ml/graficos/3d.PNG?raw=true)
