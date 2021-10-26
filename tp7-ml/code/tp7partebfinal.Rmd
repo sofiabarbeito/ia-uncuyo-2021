@@ -1,0 +1,51 @@
+```{r }
+suppressMessages(library(rpart))
+suppressMessages(library(caret))
+suppressMessages(library(readr))
+suppressMessages(library(dplyr))
+suppressMessages(library(ggplot2))
+suppressMessages(library(ggmap))
+suppressMessages(library(randomForest))
+
+
+set.seed(100)
+data_set <- read.csv("./arbolado-mza-dataset.csv")
+data_test <- read.csv("./arbolado-mza-dataset-test.csv")
+data_set$inclinacion_peligrosa <- as.factor(data_set$inclinacion_peligrosa)
+
+
+#Elimino columnas que no son importantes
+data_set_final <- subset(data_set, select = -c(ultima_modificacion, long, lat,area_seccion, nombre_seccion))
+data_test_final <- subset(data_test, select = -c(ultima_modificacion, long, lat,area_seccion, nombre_seccion))
+
+
+#Clase mayoritararia inclinacion peligrosa = 0, la reduzco
+unos <- data_set_final %>% filter(inclinacion_peligrosa == 1)
+ceros <- data_set_final %>% filter(inclinacion_peligrosa == 0)
+
+splitted <- sample(1:nrow(ceros),replace = F, size = 3579) 
+ceros <- ceros[ splitted, ]
+data_set_final <- rbind(ceros,unos)
+
+
+rf <- randomForest(inclinacion_peligrosa ~ altura + especie + diametro_tronco,data=data_set_final, importance=TRUE, ntree=600, mtry=2)
+p <- predict(rf, newdata=data_test_final)
+print(rf)
+importance(rf)
+
+
+#p <- as.numeric(as.character(inclinacion_peligrosa))
+#id <- treesID
+#results <- data.frame(id,inclinacion_peligrosa)
+#results
+#write.csv(results,"results.csv")
+
+submission<-data.frame(id=data_test_final$id,inclinacion_peligrosa=p)
+readr::write_csv(submission,"./resultfinal.csv")
+```
+
+
+
+
+
+
