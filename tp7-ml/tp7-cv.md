@@ -140,4 +140,4 @@ cross_validation = function(dataframe,n){
 |  | Accuracy | Precision | Sensitivity | Specificity |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Media  | 0.8891066  | -  | 0  | 1  |
-| Desviacion Estandar  | 20.0008004518  | -  | 0  | 0  |
+| Desviacion Estandar  | 0.0008004518  | -  | 0  | 0  |
