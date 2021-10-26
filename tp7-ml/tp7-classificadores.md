@@ -4,8 +4,8 @@
 
 |  | Predicted No | Predicted Si |
 | ------------- | ------------- | ------------- |
-| Actual No  | 2811  | 414  |
-| Actual Si  | 2823  | 334  |
+| Actual No  | 334  | 414  |
+| Actual Si  | 2823  | 2811  |
 
 <h3> Metricas </h3>
 
@@ -20,8 +20,8 @@
 
 |  | Predicted No | Predicted Si |
 | ------------- | ------------- | ------------- |
-| Actual No  | 5634  | 748  |
-| Actual Si  | 0  | 0  |
+| Actual No  | 0  | 748  |
+| Actual Si  | 0  | 5634  |
 
 <h3> Metricas </h3>
 
