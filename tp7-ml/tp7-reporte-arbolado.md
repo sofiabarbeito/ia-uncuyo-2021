@@ -34,4 +34,4 @@ También busqué la clase mayoritaria, la cual es cuando los datos tienen inclin
 
 <h5>Balanceamos la clase mayoritaria, ya que observamos que esta tenia un porcentaje demasiado alto de arboles sin inclinacion peligrosa, quedando asi la misma cantidad de arboles con inclinacion peligrosa y no peligrosa.</h5>
 
-<h5>Entrenamos el conjunto data_set con Random Forest, el cual ... y con la funcion predict, estimamos la inclinacion peligrosa del conjunto de datos data_test.</h5>
+<h5>Elegimos entrenar el conjunto data_set con Random Forest, ya que nos parecio bueno para generalizar, este algoritmo ... y con la funcion predict, estimamos la inclinacion peligrosa del conjunto de datos data_test.</h5>
