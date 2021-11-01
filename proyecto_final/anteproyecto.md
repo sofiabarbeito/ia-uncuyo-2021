@@ -30,7 +30,7 @@ Se consultó el libro AIMA 3rd Edition y AIMA 2da Edition (en español)
 
 ### Código del proyecto: 
 
-**BL_Organizacion_Tareas** (Organización de tareas con algoritmos de Búsqueda Local)
+**LSTASK**
 
 ### Justificación: 
 
