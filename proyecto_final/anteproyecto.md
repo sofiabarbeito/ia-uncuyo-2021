@@ -24,15 +24,13 @@ Alcance: Los algoritmos que implementaremos serán probados en conjuntos de tare
 
 Limitaciones: Los algoritmos de búsqueda local en inteligencia artificial, que son los investigados y puestos en práctica en este trabajo, presentan la desventaja de que pueden caer en un mínimo o máximo local y no salir de allí, considerando esta como la mejor solución .
 
+### Bibliografía
+
 Se consultó el libro AIMA 3rd Edition y AIMA 2da Edition (en español)
 
 ### Código del proyecto: 
 
-**HC_Tareas** (Organización de tareas con el algoritmo Hill-Climbing)
-
-**SA_Tareas** (Organización de tareas con el algoritmo Simulated Annealing)
-
-**AG_Tareas** (Organización de tareas con el Algoritmo Genético)
+**BL_Organizacion_Tareas** (Organización de tareas con algoritmos de Búsqueda Local)
 
 ### Justificación: 
 
